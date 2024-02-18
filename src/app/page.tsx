@@ -21,7 +21,7 @@ export default function Home() {
       time = new Date().toLocaleTimeString();
       setCTime(time);
     };
-    const sunRise = obj.sunTimer(new Date(), 12.972, 77.594);
+    const sunRise = obj.sunTimer(new Date(), 19.076, 72.8777);
     setsunRise(sunRise.sunRise.toLocaleTimeString());
     setInterval(updateTime, 1000);
     let mhahObj = obj.calculate(new Date());

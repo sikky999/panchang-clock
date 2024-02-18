@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+//@ts-ignore
 import { FlapDisplay, Presets } from 'react-split-flap-effect';
 import Button from '@mui/material/Button';
 import React from 'react';
